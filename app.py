@@ -5,7 +5,6 @@ Data -> Split -> Store (Chroma DB)-> Retrival(Question + Search) in LLM(gpt3.5 t
 Comments-
 1.Basic RAG System to communicate with your company internal Data is setup.
 (Note this is a simple QA System)
-
 '''
 
 import streamlit as st
