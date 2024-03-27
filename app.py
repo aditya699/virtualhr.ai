@@ -1,3 +1,15 @@
+'''
+Author - Aditya Bhatt 7:00 AM 27-03-2024
+AI Based Virtual HR
+Flow
+Speech -> Text -> text as prompt
+PDF->Chunk->Embeddings(open ai)->retrival
+text+retrival -> prompt in llm
+Output->text>Speech
+'''
+
+
+
 import speech_recognition as sr
 import pyttsx3
 from langchain_community.document_loaders import WebBaseLoader
